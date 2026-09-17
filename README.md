@@ -146,9 +146,9 @@ cd mediatek-mt7927-dkms
 make download
 make sources
 sudo make install
-sudo dkms add mediatek-mt7927/2.14
-sudo dkms build mediatek-mt7927/2.14
-sudo dkms install mediatek-mt7927/2.14
+sudo dkms add mediatek-mt7927/2.15
+sudo dkms build mediatek-mt7927/2.15
+sudo dkms install mediatek-mt7927/2.15
 sudo modprobe -r mt7925e mt7921e btusb
 sudo modprobe mt7925e
 sudo modprobe btusb
@@ -368,7 +368,7 @@ above still work. Check with `cat /sys/kernel/security/lockdown`.
 **DKMS not built for current kernel:**
 
 ```bash
-sudo dkms install mediatek-mt7927/2.14
+sudo dkms install mediatek-mt7927/2.15
 ```
 
 **DKMS modules installed but not visible in `/usr/src/`:**
