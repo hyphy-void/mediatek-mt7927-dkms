@@ -75,8 +75,8 @@ source=(
   'dkms.conf'
 )
 sha256sums=('f9fef3d14c0df53819026f4be74459835c2a0b0dcbf5b5bbd9ea19f0829402b3'
-            '1eb7d542ed94a305e727e20671412d2e2a5793607a020742312a69dff9486b7b'
-            'fc9238c11b1c47ada23f0b8391f31783b58c32cd3f50c5d44ecea9b7fbd10f69')
+            'e64ff5726ece3e2e3045dd5277a5e8acd6f144f2d5c228738cfeb1d8e3c8a58e'
+            '107b3f2abbec93ca43dc6b8509cd011f1ec76fb9eef6999c81f5f0cee4fdbd73')
 
 # Auto-download via ASUS CDN token API
 _download_driver_zip() {
